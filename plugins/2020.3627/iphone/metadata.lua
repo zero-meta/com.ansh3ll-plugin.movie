@@ -2,8 +2,8 @@ local metadata =
 {
     plugin =
     {
-        format = 'sharedLibrary',
-        staticLibs = { 'plugin.movie', 'ogg', 'theoradec', 'vorbis', },
+        format = 'staticLibrary',
+        staticLibs = { 'plugin_movie', 'ogg', 'theoradec', 'vorbis', },
         frameworks = {},
         frameworksOptional = {},
     },
